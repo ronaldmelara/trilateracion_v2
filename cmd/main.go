@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	satSrv "meliQuasar/internal/services"
+	_"meliQuasar/internal/services"
 )
 
 func main(){
 	fmt.Println("Test")
 
-	a := satSrv.GetSatellites()
+	//a := satSrv.GetSatellites()
 
-	fmt.Println(a)
+	//fmt.Println(a)
 }
