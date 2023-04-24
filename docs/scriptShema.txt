@@ -1,0 +1,12 @@
+CREATE SCHEMA `satellitesDB` ;
+
+CREATE TABLE `satellitesDB`.`satellite` (
+  `idsatellite` INT NOT NULL,
+  `name` VARCHAR(45) NULL,
+  `positionx` FLOAT NULL,
+  `positiony` FLOAT NULL,
+  PRIMARY KEY (`idsatellite`));
+
+INSERT INTO `satellitesDB`.`satellite` (`idsatellite`, `name`, `positionx`, `positiony`) VALUES ('1', 'Kenobi', '-500', '-200');
+INSERT INTO `satellitesDB`.`satellite` (`idsatellite`, `name`, `positionx`, `positiony`) VALUES ('2', 'Skywalter', '-100', '-100');
+INSERT INTO `satellitesDB`.`satellite` (`idsatellite`, `name`, `positionx`, `positiony`) VALUES ('3', 'Sato', '500', '100');
