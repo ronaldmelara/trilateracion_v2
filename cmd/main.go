@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	satSrv "meliQuasar/internal/api/quasar/services"
+	satSrv "meliQuasar/internal/services"
 )
 
 func main(){

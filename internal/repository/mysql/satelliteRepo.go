@@ -2,7 +2,7 @@ package mysql
 
 import (
 	"fmt"
-	model "meliQuasar/internal/api/quasar/model"
+	model "meliQuasar/internal/model"
 )
 
 func setConnection() (ConnectionInfoMS)  {
