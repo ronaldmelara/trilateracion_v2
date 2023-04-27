@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	_"meliQuasar/internal/services"
+	router "meliQuasar/internal/router"
 )
 
 func main(){
 	fmt.Println("Test")
 
+	router.ServicesInit()
 	//a := satSrv.GetSatellites()
 
 	//fmt.Println(a)
