@@ -5,11 +5,9 @@ import (
 	router "meliQuasar/internal/router"
 )
 
-func main(){
-	fmt.Println("Test")
+func main() {
+	fmt.Println("Iniciando Servicios...")
 
 	router.ServicesInit()
-	//a := satSrv.GetSatellites()
 
-	//fmt.Println(a)
 }
